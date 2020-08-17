@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Fixer.CQRS.Commands</Description>
+    <Authors>KeivanDamirchi.ir</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Fixer.CQRS.Commands</AssemblyName>
+    <Title>Fixer.CQRS.Commands</Title>
+    <PackageId>Fixer.CQRS.Commands</PackageId>
+    <PackageTags>Fixer.CQRS.Commands</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dispatchers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.6" />
+    <ProjectReference Include="..\..\..\Fixer\src\Fixer\Fixer.csproj" />
+  </ItemGroup>
+
+</Project>
